@@ -1,0 +1,9 @@
+import 'food.dart';
+
+List<Food> drink = [
+  Food(img: "assets/images/1h.jpeg", name: "Lorem Ipsum", price: 5, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/2h.jpg", name: "Lorem Ipsum", price: 7, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/3h.jpg", name: "Lorem Ipsum", price: 8, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/4h.png", name: "Lorem Ipsum", price: 4, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/5h.jpg", name: "Lorem Ipsum", price: 5, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+];

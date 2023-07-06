@@ -1,0 +1,10 @@
+import 'food.dart';
+
+List<Food> poulet = [
+  Food(img: "assets/images/1d.jpg", name: "Lorem Ipsum", price: 5, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/2d.jpg", name: "Lorem Ipsum", price: 7, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/3d.png", name: "Lorem Ipsum", price: 8, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/4d.jpg", name: "Lorem Ipsum", price: 4, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/5d.jpg", name: "Lorem Ipsum", price: 5, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+  Food(img: "assets/images/6d.jpg", name: "Lorem Ipsum", price: 8, description: "distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a moredistracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more"),
+];
