@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
 import 'accueil.dart';
+import 'card.dart';
+import 'count.dart';
+import 'favory.dart';
 
 class Indexpages extends StatefulWidget {
   const Indexpages({super.key});
@@ -19,7 +22,12 @@ class _IndexpagesState extends State<Indexpages> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Accueil(),
+      body: [
+        Accueil(),
+        Favory(),
+        MyCard(),
+        MyCount()
+      ][_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: (index) => setCurrentIndex(index),
@@ -33,7 +41,6 @@ class _IndexpagesState extends State<Indexpages> {
           BottomNavigationBarItem(icon: Icon(Icons.home),label: 'home'),
           BottomNavigationBarItem(icon: Icon(Icons.favorite),label: 'favorite'),
           BottomNavigationBarItem(icon: Icon(Icons.card_travel),label: 'card'),
-          BottomNavigationBarItem(icon: Icon(Icons.notifications),label: 'notification'),
           BottomNavigationBarItem(icon: Icon(Icons.contacts_outlined),label: 'count'),
         ]),
     );

@@ -12,6 +12,7 @@ import '../services/nuggets.dart';
 import '../services/pizza.dart';
 import '../services/poulet.dart';
 import 'datail.dart';
+import 'notif.dart';
 
 class Accueil extends StatefulWidget {
   const Accueil({super.key});
@@ -102,7 +103,9 @@ class _AccueilState extends State<Accueil> with TickerProviderStateMixin  {
                     ),
                   ),
                   IconButton(
-                    onPressed: (){}, 
+                    onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>MyNotif()));
+                    }, 
                     icon: Icon(Ionicons.notifications, color: Colors.white,))
                 ],
               ),
