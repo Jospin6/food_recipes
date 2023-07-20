@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'package:http/http.dart' as http;
 
+import 'screens/index.dart';
+
 // import 'screens/index.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'MyResto',
-      home: MealsList(),
+      home: Indexpages(),
     );
   }
 }
