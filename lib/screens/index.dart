@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
 import 'accueil.dart';
-import 'card.dart';
-import 'count.dart';
 import 'favory.dart';
 
 class Indexpages extends StatefulWidget {
@@ -25,8 +23,6 @@ class _IndexpagesState extends State<Indexpages> {
       body: [
         Accueil(),
         Favory(),
-        MyCard(),
-        MyCount()
       ][_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
@@ -40,8 +36,6 @@ class _IndexpagesState extends State<Indexpages> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home),label: 'home'),
           BottomNavigationBarItem(icon: Icon(Icons.favorite),label: 'favorite'),
-          BottomNavigationBarItem(icon: Icon(Icons.card_travel),label: 'card'),
-          BottomNavigationBarItem(icon: Icon(Icons.contacts_outlined),label: 'count'),
         ]),
     );
   }
